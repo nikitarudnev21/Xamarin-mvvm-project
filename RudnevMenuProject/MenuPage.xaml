@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="RudnevMenuProject.MenuPage" Title="Информация о заказе" BackgroundColor="#EDE6CC" > 
+        <Grid x:Name="grid">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+
+        </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Label  HorizontalOptions="StartAndExpand"  FontSize="28" TextColor="#4B450E"
+               VerticalTextAlignment="Center" HorizontalTextAlignment="Center"
+               Margin="125,15,0,5"   FontAttributes="Bold" FontFamily="Roboto"
+                     Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"
+                Opacity="1" Text="Бургер" />
+
+            <Label  HorizontalOptions="StartAndExpand"  FontSize="20" TextColor="#4B450E"
+               VerticalTextAlignment="Center" HorizontalTextAlignment="Center" 
+               Margin="5,15,0,5"   FontAttributes="Bold" FontFamily="Roboto"
+                     Grid.Row="1" Grid.Column="0"
+                Opacity="1" Text="С говядиной"/>
+
+            <Image Source="burgergov.png" Opacity="0.9" HorizontalOptions="CenterAndExpand"
+                     Grid.Row="2" Grid.Column="0" 
+                   VerticalOptions="CenterAndExpand" Margin="20,5,20,5"></Image>
+        <Label  HorizontalOptions="StartAndExpand"  FontSize="20" TextColor="#4B450E" x:Name="lblGov"
+               VerticalTextAlignment="Center" HorizontalTextAlignment="Center" 
+              Margin="20,5,20,5"   FontAttributes="Bold" FontFamily="Roboto"
+                Grid.Row="3" Grid.Column="0"
+                Opacity="1" Text="Количество"/>
+
+            <Label  HorizontalOptions="StartAndExpand"  FontSize="20" TextColor="#4B450E"
+               VerticalTextAlignment="Center" HorizontalTextAlignment="Center" 
+               Margin="5,15,0,5"   FontAttributes="Bold" FontFamily="Roboto"
+                     Grid.Row="1" Grid.Column="1"
+                Opacity="1" Text="С курицей"/>
+
+            <Image Source="burgerkur.png" Opacity="0.9" HorizontalOptions="CenterAndExpand"
+                     Grid.Row="2" Grid.Column="1"
+                   VerticalOptions="CenterAndExpand"></Image>
+        <Label  HorizontalOptions="StartAndExpand"  FontSize="20" TextColor="#4B450E" x:Name="lblChick"
+               VerticalTextAlignment="Center" HorizontalTextAlignment="Center" 
+              Margin="20,5,20,5"   FontAttributes="Bold" FontFamily="Roboto"
+                Grid.Row="3" Grid.Column="1"
+                Opacity="1" Text="Количество"/>
+
+        <Label  HorizontalOptions="StartAndExpand"  FontSize="20" TextColor="#4B450E"
+               VerticalTextAlignment="Center" HorizontalTextAlignment="Center" 
+               Margin="5,15,0,5"   FontAttributes="Bold" FontFamily="Roboto"
+                     Grid.Row="1" Grid.Column="2"
+                Opacity="1" Text="Со свининной"/>
+
+            <Image Source="burgerpork.png" Opacity="0.9" HorizontalOptions="CenterAndExpand"
+                     Grid.Row="2" Grid.Column="2"
+                   VerticalOptions="CenterAndExpand" Margin="20,5,20,5"></Image>
+
+        <Label  HorizontalOptions="StartAndExpand"  FontSize="20" TextColor="#4B450E" x:Name="lblPig"
+               VerticalTextAlignment="Center" HorizontalTextAlignment="Center" 
+              Margin="20,5,20,5"   FontAttributes="Bold" FontFamily="Roboto"
+                Grid.Row="3" Grid.Column="2"
+                Opacity="1" Text="Количество"/>
+        <Entry     Grid.Row="4" Grid.Column="0" Margin="20,0,20,0"
+        ></Entry>
+        <Entry     Grid.Row="4" Grid.Column="1"  Margin="20,0,20,0"
+        ></Entry>
+        <Entry     Grid.Row="4" Grid.Column="2"  Margin="20,0,20,0"
+        ></Entry>
+        <!--    <DatePicker  Date = "{Binding Date}"    x:Name="DP"
+                     DateSelected="DP_DateSelected" MinimumDate="01/01/1990"></DatePicker> 
+
+                    <Entry     Grid.Row="4" Grid.Column="1" 
+                   Margin="0,0,0,0"
+        ></Entry>
+            
+            <Label Text="Возраст" FontAttributes="Bold" FontSize="Medium" />
+            <Label Text="{Binding Age}"
+               x:Name="Agelbl"></Label>
+
+            <Label Text="Статус" FontAttributes="Bold" FontSize="Medium" />
+            <Label Text="{Binding Status}"
+               x:Name="Statuslbl"></Label>
+
+            <Label Text="Дней до дня рождения"  FontAttributes="Bold" FontSize="Medium"/>
+            <Label x:Name="birth" Text=""></Label>
+            <Label x:Name="notif" Text="Уведомления о дне рожденье"></Label>
+
+            <Picker FontSize="Large" FontFamily="Roboto" 
+                    Title="Национальность"  FontAttributes="Bold"  x:Name="picker1" 
+                SelectedIndex="{Binding Nationality}">
+                <Picker.Items>
+                    <x:String>Русский</x:String>
+                    <x:String>Американец</x:String>
+                    <x:String>Украинец</x:String>
+                    <x:String>Литовец</x:String>
+                    <x:String>Эстонец</x:String>
+                    <x:String>Латыш</x:String>
+                    <x:String>Китаец</x:String>
+                </Picker.Items>
+            </Picker>-->
+
+
+
+        <Button  Text="Сохранить"  BackgroundColor= "#C59128" 
+                 FontAttributes="Bold" BorderColor="#7B6C0B" 
+                 BorderWidth="2"  CornerRadius="10"  TextColor="Black" Grid.Row="5" Grid.Column="0"
+               Font="Roboto" Opacity="1" FontSize="18"
+                 HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" 
+                 Margin="5,5,5,5" Padding="0" Clicked="SaveMenu"></Button>
+            
+            <Button  Text="Удалить"  BackgroundColor= "#C59128"   
+                 FontAttributes="Bold" BorderColor="#7B6C0B" 
+                 BorderWidth="2"  CornerRadius="10"  TextColor="Black" Grid.Row="5" Grid.Column="1"
+               Font="Roboto" Opacity="1" FontSize="18"
+                 HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" 
+                 Margin="5,5,5,5" Padding="0" Clicked="DeleteMenu"></Button>
+
+        <Button  Text="Отмена"  BackgroundColor= "#C59128"   
+                 FontAttributes="Bold" BorderColor="#7B6C0B" 
+                 BorderWidth="2"  CornerRadius="10"  TextColor="Black" Grid.Row="5" Grid.Column="2"
+               Font="Roboto" Opacity="1" FontSize="18" 
+            HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" 
+                 Margin="5,5,5,5" Padding="0" Clicked="Cancel"></Button>
+
+    </Grid>
+</ContentPage>

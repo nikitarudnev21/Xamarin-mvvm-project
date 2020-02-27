@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage BackgroundColor="#EDE6CC" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="RudnevMenuProject.LoginNext">
+    <ContentPage.Content>
+        <StackLayout Margin="0">
+            <Label  HorizontalOptions="CenterAndExpand" x:Name="lblMain"  FontSize="36" TextColor="#4B450E"
+               VerticalTextAlignment="Center" HorizontalTextAlignment="Center" 
+               Margin="5,15,0,20"   FontAttributes="Bold" FontFamily="Roboto"
+                Opacity="1" Text="Войти"  />
+            <Label  HorizontalOptions="StartAndExpand" x:Name="lblLog1"  FontSize="20" TextColor="#4B450E"
+               VerticalTextAlignment="Center" HorizontalTextAlignment="Center" 
+               Margin="5,15,0,5"   FontAttributes="Bold" FontFamily="Roboto"
+                Opacity="1" Text="E-mail или номер телефона" />
+            <Entry  Margin="5,5,40,15" 
+               BackgroundColor="#F3E7D4"  x:Name="telmail" ></Entry>
+            
+            <Label  HorizontalOptions="StartAndExpand" x:Name="lblLog2"  FontSize="20" TextColor="#4B450E"
+               VerticalTextAlignment="Center" HorizontalTextAlignment="Center" 
+               Margin="5,15,0,5"   FontAttributes="Bold" FontFamily="Roboto"
+                Opacity="1" Text="Пароль"  />
+            
+            <Entry  Margin="5,5,40,15"  x:Name="Pass"
+               BackgroundColor="#F3E7D4"  IsPassword="True"></Entry>
+            <Grid x:Name="grid">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+
+                <Button  Text="Назад"  BackgroundColor= "#C59128"   x:Name="btnBack" 
+                 FontAttributes="Bold" BorderColor="#7B6C0B"
+                 BorderWidth="2"  CornerRadius="10"  TextColor="Black" Grid.Row="0" Grid.Column="0"
+               Font="Roboto" Opacity="1" FontSize="20" Clicked="Backk"
+                 HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" 
+                 Margin="5,5,5,5" Padding="0"></Button>
+
+                <Button  Text="Продолжить"  BackgroundColor= "#C59128" Clicked="GoNext"  x:Name="btnNext" 
+                 FontAttributes="Bold" BorderColor="#7B6C0B" 
+                 BorderWidth="2"  CornerRadius="10"  TextColor="Black" Grid.Row="0" Grid.Column="1"
+               Font="Roboto" Opacity="1" FontSize="20" 
+                 HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" 
+                 Margin="5,5,5,5" Padding="10"></Button>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
