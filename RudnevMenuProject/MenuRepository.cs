@@ -15,6 +15,7 @@ namespace RudnevMenuProject
             database = new SQLiteConnection(databasePath);
             database.CreateTable<Menuu>();
         }
+
         public IEnumerable<Menuu> GetItems()
         {
             return (from i in database.Table<Menuu>() select i).ToList();
@@ -23,6 +24,7 @@ namespace RudnevMenuProject
         {
             return database.Get<Menuu>(id);
         }
+
 
         public int DeleteItem(int id) // функция для удаление записи
         {
@@ -36,6 +38,19 @@ namespace RudnevMenuProject
             if (item.Id != 0)
             {
                 database.Update(item);
+                return item.Id;
+            }
+            else
+            {
+                return database.Insert(item);
+            }
+        }
+        public int SaveLogPas(Menuu item)
+        {
+            if (item.Password!=""&&item.Login!="" && item.Id!=0)
+            {
+                database.Update(item.Login);
+                database.Update(item.Password);
                 return item.Id;
             }
             else

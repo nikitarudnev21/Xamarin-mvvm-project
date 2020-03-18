@@ -1,0 +1,1 @@
+C:\Users\opilane\projects\RudnevMenuProject\RudnevMenuProject.UWP\RudnevMenuProject.UWP.csproj;x86

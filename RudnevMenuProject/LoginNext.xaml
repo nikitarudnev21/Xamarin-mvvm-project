@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="RudnevMenuProject.LoginNext">
+             x:Class="RudnevMenuProject.LoginNext" Title="Авторизация">
     <ContentPage.Content>
         <StackLayout Margin="0">
             <Label  HorizontalOptions="CenterAndExpand" x:Name="lblMain"  FontSize="36" TextColor="#4B450E"
@@ -14,16 +14,15 @@
             <Label  HorizontalOptions="StartAndExpand" x:Name="lblLog1"  FontSize="20" TextColor="#4B450E"
                VerticalTextAlignment="Center" HorizontalTextAlignment="Center" 
                Margin="5,15,0,5"   FontAttributes="Bold" FontFamily="Roboto"
-                Opacity="1" Text="E-mail или номер телефона" />
-            <Entry  Margin="5,5,40,15" 
-               BackgroundColor="#F3E7D4"  x:Name="telmail" ></Entry>
-            
+                Opacity="1" Text="Логин" />
+            <Entry  Margin="5,5,40,15" Text="{Binding Login}" x:Name="logentry" 
+               BackgroundColor="#F3E7D4"  ></Entry>
             <Label  HorizontalOptions="StartAndExpand" x:Name="lblLog2"  FontSize="20" TextColor="#4B450E"
                VerticalTextAlignment="Center" HorizontalTextAlignment="Center" 
                Margin="5,15,0,5"   FontAttributes="Bold" FontFamily="Roboto"
                 Opacity="1" Text="Пароль"  />
-            
-            <Entry  Margin="5,5,40,15"  x:Name="Pass"
+
+            <Entry  Margin="5,5,40,15"  x:Name="Pass" Text="{Binding Password}"
                BackgroundColor="#F3E7D4"  IsPassword="True"></Entry>
             <Grid x:Name="grid">
                 <Grid.RowDefinitions>

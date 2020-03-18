@@ -10,49 +10,58 @@
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
-
         </Grid.ColumnDefinitions>
 
-
-            <ListView x:Name="MenuList" ItemsSource="{Binding}" ItemSelected="OnItemSelected">
+        <Label  HorizontalOptions="StartAndExpand" x:Name="lblLog1"  FontSize="20" TextColor="#4B450E"
+               VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Grid.ColumnSpan="2" Grid.Row="0"
+               Margin="50,15,0,5"   FontAttributes="Bold" FontFamily="Roboto"
+                Opacity="1" Text="Заказы" />
+        
+        <ListView x:Name="MenuList" ItemsSource="{Binding}" ItemSelected="OnItemSelected" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ViewCell>
-                            <ViewCell.View>
-                                <Label Text="{Binding Name}" FontSize="Medium" Grid.Row="0" Grid.Column="0" />
-                            </ViewCell.View>
-                        </ViewCell>
-                    </DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout>
+                             <!-- <Label Text="{Binding BurgerBeef}" FontSize="Small"/>
+                                <Label Text="{Binding BurgerChick}" FontSize="Small" Margin="100,0,0,0"/>
+                                <Label Text="{Binding BurgerPoor}" FontSize="Small" Margin="400,0,0,0"/>-->
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
- 
 
 
-        <Button  Text="Добавить к заказу"  BackgroundColor= "#C59128"  Clicked="AddToOrder"  x:Name="btnAdd" 
+
+
+        <Button  Text="Добавить"  BackgroundColor= "#C59128"  Clicked="AddToOrder"  x:Name="btnAdd" 
                   BorderColor="#7B6C0B" FontSize="20"
-                 BorderWidth="2"  CornerRadius="10"  TextColor="Black" Grid.Row="1" Grid.Column="0"
-                 HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Margin="10,120,10,0"
-                Padding="-15,-15"></Button>
-        <Button  Text="Удалить из заказа"  BackgroundColor= "#C59128"  Clicked="RemoveFromOrder"  x:Name="btnRemove" 
+                 BorderWidth="2"  CornerRadius="10"  TextColor="Black" Grid.Row="2" Grid.Column="0"
+                 HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Margin="10,50,10,0"
+                Padding="20,20"></Button>
+        <Button  Text="Удалить"  BackgroundColor= "#C59128"  Clicked="RemoveFromOrder"  x:Name="btnRemove" 
                  FontAttributes="Bold" BorderColor="#7B6C0B" 
-                 BorderWidth="2"  CornerRadius="10"  TextColor="Black" Grid.Row="1" Grid.Column="1"
+                 BorderWidth="2"  CornerRadius="10"  TextColor="Black" Grid.Row="2" Grid.Column="1"
                Font="Roboto" Opacity="1" FontSize="20" 
-                 HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"   Margin="10,120,10,0" 
-                 Padding="-15,-15"></Button>
+                 HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"   Margin="10,50,10,0" 
+                 Padding="20,20"></Button>
 
         <Button  Text="Назад"  BackgroundColor= "#C59128"   x:Name="btnBack" 
                  FontAttributes="Bold" BorderColor="#7B6C0B"
-                 BorderWidth="2"  CornerRadius="10"  TextColor="Black" Grid.Row="2" Grid.Column="0"
-               Font="Roboto" Opacity="1" FontSize="20" Clicked="Cancel"
+                 BorderWidth="2"  CornerRadius="10"  TextColor="Black" Grid.Row="3" Grid.Column="0"
+               Font="Roboto" Opacity="1" FontSize="20" Clicked="Cancel" 
                  HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" 
                  Padding="20,20"></Button>
         <Button  Text="Оплатить"  BackgroundColor= "#C59128"  Clicked="Pay"  x:Name="btnPay" 
-                 FontAttributes="Bold" BorderColor="#7B6C0B" 
-                 BorderWidth="2"  CornerRadius="10"  TextColor="Black" Grid.Row="2" Grid.Column="1"
+                 FontAttributes="Bold" BorderColor="#7B6C0B"  
+                 BorderWidth="2"  CornerRadius="10"  TextColor="Black" Grid.Row="3" Grid.Column="1"
                Font="Roboto" Opacity="1" FontSize="20" 
                  HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" 
               Padding="20,20"></Button>

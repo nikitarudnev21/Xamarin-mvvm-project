@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="RudnevMenuProject.RegistrationNext">
+             x:Class="RudnevMenuProject.RegistrationNext" Title="Регистрация">
     <ScrollView>
         <StackLayout>
             <Label  HorizontalOptions="CenterAndExpand" x:Name="lblMain"  FontSize="36" TextColor="#4B450E"
@@ -98,6 +98,23 @@
                 </Picker.Items>
             </Picker>
 
+            <Label  HorizontalOptions="StartAndExpand"   FontSize="20" TextColor="#4B450E"
+               VerticalTextAlignment="Center" HorizontalTextAlignment="Center" 
+               Margin="5,15,0,5"   FontAttributes="Bold" FontFamily="Roboto"
+                Opacity="1" Text="Логин" />
+
+            <Entry  Margin="5,5,40,20" 
+               BackgroundColor="#F3E7D4"  x:Name="Elog" Text="{Binding Login}"></Entry>
+
+            <Label  HorizontalOptions="StartAndExpand"   FontSize="20" TextColor="#4B450E"
+               VerticalTextAlignment="Center" HorizontalTextAlignment="Center" 
+               Margin="5,15,0,5"   FontAttributes="Bold" FontFamily="Roboto"
+                Opacity="1" Text="Пароль" />
+
+            <Entry  Margin="5,5,40,20"  IsPassword="True"
+               BackgroundColor="#F3E7D4"  x:Name="Epass" Text="{Binding Password}"></Entry>
+
+
             <Grid x:Name="grid">
                 <Grid.RowDefinitions>
                     <RowDefinition></RowDefinition>
@@ -108,6 +125,8 @@
                     <ColumnDefinition></ColumnDefinition>
                 </Grid.ColumnDefinitions>
 
+                
+                
                 <Button  Text="Назад"  BackgroundColor= "#C59128"   x:Name="btnBack" 
                  FontAttributes="Bold" BorderColor="#7B6C0B"
                  BorderWidth="2"  CornerRadius="10"  TextColor="Black" Grid.Row="0" Grid.Column="0"

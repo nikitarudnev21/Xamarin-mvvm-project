@@ -72,46 +72,18 @@
               Margin="20,5,20,5"   FontAttributes="Bold" FontFamily="Roboto"
                 Grid.Row="3" Grid.Column="2"
                 Opacity="1" Text="Количество"/>
-        <Entry     Grid.Row="4" Grid.Column="0" Margin="20,0,20,0"
+        <Entry     Grid.Row="4" Grid.Column="0" Margin="30,0,30,20" Text="{Binding BurgerBeef}" Keyboard="Numeric"
+                   HorizontalTextAlignment="Center" VerticalOptions="Center" TextChanged="Entry_TextChanged"
+                   x:Name="entrybeef"
         ></Entry>
-        <Entry     Grid.Row="4" Grid.Column="1"  Margin="20,0,20,0"
+        <Entry     Grid.Row="4" Grid.Column="1"  Margin="30,0,30,20" Text="{Binding BurgerChick}"  Keyboard="Numeric"
+                     HorizontalTextAlignment="Center" VerticalOptions="Center" TextChanged= "Entry_TextChanged_1"
+                     x:Name="entrychick"
         ></Entry>
-        <Entry     Grid.Row="4" Grid.Column="2"  Margin="20,0,20,0"
+        <Entry     Grid.Row="4" Grid.Column="2"  Margin="30,0,30,20"  Text="{Binding BurgerPork}"  Keyboard="Numeric"
+                     HorizontalTextAlignment="Center" VerticalOptions="Center" TextChanged="Entry_TextChanged_2"
+                     x:Name="entrypork"
         ></Entry>
-        <!--    <DatePicker  Date = "{Binding Date}"    x:Name="DP"
-                     DateSelected="DP_DateSelected" MinimumDate="01/01/1990"></DatePicker> 
-
-                    <Entry     Grid.Row="4" Grid.Column="1" 
-                   Margin="0,0,0,0"
-        ></Entry>
-            
-            <Label Text="Возраст" FontAttributes="Bold" FontSize="Medium" />
-            <Label Text="{Binding Age}"
-               x:Name="Agelbl"></Label>
-
-            <Label Text="Статус" FontAttributes="Bold" FontSize="Medium" />
-            <Label Text="{Binding Status}"
-               x:Name="Statuslbl"></Label>
-
-            <Label Text="Дней до дня рождения"  FontAttributes="Bold" FontSize="Medium"/>
-            <Label x:Name="birth" Text=""></Label>
-            <Label x:Name="notif" Text="Уведомления о дне рожденье"></Label>
-
-            <Picker FontSize="Large" FontFamily="Roboto" 
-                    Title="Национальность"  FontAttributes="Bold"  x:Name="picker1" 
-                SelectedIndex="{Binding Nationality}">
-                <Picker.Items>
-                    <x:String>Русский</x:String>
-                    <x:String>Американец</x:String>
-                    <x:String>Украинец</x:String>
-                    <x:String>Литовец</x:String>
-                    <x:String>Эстонец</x:String>
-                    <x:String>Латыш</x:String>
-                    <x:String>Китаец</x:String>
-                </Picker.Items>
-            </Picker>-->
-
-
 
         <Button  Text="Сохранить"  BackgroundColor= "#C59128" 
                  FontAttributes="Bold" BorderColor="#7B6C0B" 
