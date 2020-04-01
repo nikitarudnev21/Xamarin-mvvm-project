@@ -35,7 +35,7 @@ namespace RudnevMenuProject
         public int DrinkQuantity { get; set; }
         public int DrinkSize{ get; set; }
         public int Dish { get; set; }
-        public int ThereOrNo { get; set; }
+        public bool ThereOrNo { get; set; }
         public int Money { get; set; }
         public string Login { get; set; }
         public string Password { get; set; }

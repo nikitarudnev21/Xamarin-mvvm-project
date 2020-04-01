@@ -2173,24 +2173,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\opilane\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Nikita\\.nuget\\packages\\": {},
+    "D:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\opilane\\projects\\RudnevMenuProject\\RudnevMenuProject.Android\\RudnevMenuProject.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Nikita\\source\\repos\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject.Android\\RudnevMenuProject.Android.csproj",
       "projectName": "RudnevMenuProject.Android",
-      "projectPath": "C:\\Users\\opilane\\projects\\RudnevMenuProject\\RudnevMenuProject.Android\\RudnevMenuProject.Android.csproj",
-      "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\opilane\\projects\\RudnevMenuProject\\RudnevMenuProject.Android\\obj\\",
+      "projectPath": "C:\\Users\\Nikita\\source\\repos\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject.Android\\RudnevMenuProject.Android.csproj",
+      "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nikita\\source\\repos\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "D:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\opilane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Nikita\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2204,8 +2204,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\opilane\\projects\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject.csproj": {
-              "projectPath": "C:\\Users\\opilane\\projects\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject.csproj"
+            "C:\\Users\\Nikita\\source\\repos\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject.csproj": {
+              "projectPath": "C:\\Users\\Nikita\\source\\repos\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject.csproj"
             }
           }
         }

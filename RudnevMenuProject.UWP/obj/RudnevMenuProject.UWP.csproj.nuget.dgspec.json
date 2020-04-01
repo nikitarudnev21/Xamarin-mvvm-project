@@ -1,25 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\opilane\\projects\\RudnevMenuProject\\RudnevMenuProject.UWP\\RudnevMenuProject.UWP.csproj": {}
+    "C:\\Users\\Nikita\\source\\repos\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject.UWP\\RudnevMenuProject.UWP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\opilane\\projects\\RudnevMenuProject\\RudnevMenuProject.UWP\\RudnevMenuProject.UWP.csproj": {
+    "C:\\Users\\Nikita\\source\\repos\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject.UWP\\RudnevMenuProject.UWP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\opilane\\projects\\RudnevMenuProject\\RudnevMenuProject.UWP\\RudnevMenuProject.UWP.csproj",
+        "projectUniqueName": "C:\\Users\\Nikita\\source\\repos\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject.UWP\\RudnevMenuProject.UWP.csproj",
         "projectName": "RudnevMenuProject.UWP",
-        "projectPath": "C:\\Users\\opilane\\projects\\RudnevMenuProject\\RudnevMenuProject.UWP\\RudnevMenuProject.UWP.csproj",
-        "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\opilane\\projects\\RudnevMenuProject\\RudnevMenuProject.UWP\\obj\\",
+        "projectPath": "C:\\Users\\Nikita\\source\\repos\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject.UWP\\RudnevMenuProject.UWP.csproj",
+        "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nikita\\source\\repos\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject.UWP\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\opilane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nikita\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -33,8 +33,8 @@
         "frameworks": {
           "uap10.0.16299": {
             "projectReferences": {
-              "C:\\Users\\opilane\\projects\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject.csproj": {
-                "projectPath": "C:\\Users\\opilane\\projects\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject.csproj"
+              "C:\\Users\\Nikita\\source\\repos\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject.csproj": {
+                "projectPath": "C:\\Users\\Nikita\\source\\repos\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject.csproj"
               }
             }
           }
@@ -91,21 +91,21 @@
         }
       }
     },
-    "C:\\Users\\opilane\\projects\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject.csproj": {
+    "C:\\Users\\Nikita\\source\\repos\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\opilane\\projects\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject.csproj",
+        "projectUniqueName": "C:\\Users\\Nikita\\source\\repos\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject.csproj",
         "projectName": "RudnevMenuProject",
-        "projectPath": "C:\\Users\\opilane\\projects\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject.csproj",
-        "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\opilane\\projects\\RudnevMenuProject\\RudnevMenuProject\\obj\\",
+        "projectPath": "C:\\Users\\Nikita\\source\\repos\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject.csproj",
+        "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nikita\\source\\repos\\RudnevMenuProject\\RudnevMenuProject\\RudnevMenuProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\opilane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nikita\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

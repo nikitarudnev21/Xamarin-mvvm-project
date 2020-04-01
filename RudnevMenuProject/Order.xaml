@@ -4,9 +4,10 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="RudnevMenuProject.Order" BackgroundColor="#EDE6CC" Title="Заказ">
+             x:Class="RudnevMenuProject.Order" BackgroundColor="#EDE6CC" Title="Заказы">
     <Grid x:Name="grid">
         <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
@@ -15,55 +16,48 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
-        <Label  HorizontalOptions="StartAndExpand" x:Name="lblLog1"  FontSize="20" TextColor="#4B450E"
-               VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Grid.ColumnSpan="2" Grid.Row="0"
-               Margin="50,15,0,5"   FontAttributes="Bold" FontFamily="Roboto"
-                Opacity="1" Text="Заказы" />
-        
-        <ListView x:Name="MenuList" ItemsSource="{Binding}" ItemSelected="OnItemSelected" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+        <Label   TextColor="#4B450E" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
+               VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Grid.ColumnSpan="4" Grid.Row="0"
+               Margin="80,0,0,0"   FontAttributes="Bold" FontFamily="Roboto" FontSize="Large"
+                Opacity="1" Text="Бургеры" />
+
+        <Label Text="С говядиной" x:Name="lblbeef" Grid.Column="0" FontAttributes="Bold" Grid.Row="1" TextColor="#4B450E" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+        <Label Text="С курицей" x:Name="lblchick" Grid.Column="1"  FontAttributes="Bold"  Grid.Row="1" TextColor="#4B450E" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+        <Label Text="Со свининой" x:Name="lblpork" Grid.Column="2"  FontAttributes="Bold"  Grid.Row="1" TextColor="#4B450E" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+        <Label Text="Здесь/ С собой"  Grid.Column="3"  FontAttributes="Bold"  Grid.Row="1" TextColor="#4B450E" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+        <ListView x:Name="MenuList" ItemsSource="{Binding}" ItemSelected="OnItemSelected" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="4">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                     <ViewCell>
                         <ViewCell.View>
-                            <StackLayout>
-                             <!-- <Label Text="{Binding BurgerBeef}" FontSize="Small"/>
-                                <Label Text="{Binding BurgerChick}" FontSize="Small" Margin="100,0,0,0"/>
-                                <Label Text="{Binding BurgerPoor}" FontSize="Small" Margin="400,0,0,0"/>-->
-                            </StackLayout>
+                            <Grid Grid.Row="2" Grid.ColumnSpan="4">
+                                <Label Text="{Binding BurgerBeef}"  FontSize="Medium"   Grid.Column="0"  Margin="0,0,0,0" TextColor="#4B450E" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                                <Label Text="{Binding BurgerChick}" FontSize="Medium"  Grid.Column="1" Margin="0,0,0,0" TextColor="#4B450E" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                                <Label Text="{Binding BurgerPork}"  FontSize="Medium"   Grid.Column="2" Margin="0,0,0,0" TextColor="#4B450E" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                                <Label Text="{Binding ThereOrNo}"  FontSize="Medium"   Grid.Column="3" Margin="0,0,0,0" TextColor="#4B450E" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" 
+                                       x:Name="lblloc"/>
+                            </Grid>
                         </ViewCell.View>
                     </ViewCell>
                 </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
 
-
-
-
-        <Button  Text="Добавить"  BackgroundColor= "#C59128"  Clicked="AddToOrder"  x:Name="btnAdd" 
-                  BorderColor="#7B6C0B" FontSize="20"
-                 BorderWidth="2"  CornerRadius="10"  TextColor="Black" Grid.Row="2" Grid.Column="0"
-                 HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Margin="10,50,10,0"
-                Padding="20,20"></Button>
-        <Button  Text="Удалить"  BackgroundColor= "#C59128"  Clicked="RemoveFromOrder"  x:Name="btnRemove" 
-                 FontAttributes="Bold" BorderColor="#7B6C0B" 
-                 BorderWidth="2"  CornerRadius="10"  TextColor="Black" Grid.Row="2" Grid.Column="1"
-               Font="Roboto" Opacity="1" FontSize="20" 
-                 HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"   Margin="10,50,10,0" 
-                 Padding="20,20"></Button>
-
         <Button  Text="Назад"  BackgroundColor= "#C59128"   x:Name="btnBack" 
                  FontAttributes="Bold" BorderColor="#7B6C0B"
-                 BorderWidth="2"  CornerRadius="10"  TextColor="Black" Grid.Row="3" Grid.Column="0"
+                 BorderWidth="2"  CornerRadius="10"  TextColor="Black" Grid.Row="4" Grid.Column="0"  Grid.ColumnSpan="2"
                Font="Roboto" Opacity="1" FontSize="20" Clicked="Cancel" 
                  HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" 
                  Padding="20,20"></Button>
-        <Button  Text="Оплатить"  BackgroundColor= "#C59128"  Clicked="Pay"  x:Name="btnPay" 
-                 FontAttributes="Bold" BorderColor="#7B6C0B"  
-                 BorderWidth="2"  CornerRadius="10"  TextColor="Black" Grid.Row="3" Grid.Column="1"
-               Font="Roboto" Opacity="1" FontSize="20" 
-                 HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" 
-              Padding="20,20"></Button>
+        
+        <Button  Text="Добавить"  BackgroundColor= "#C59128"  Clicked="AddToOrder"  x:Name="btnAdd" 
+                  BorderColor="#7B6C0B" FontSize="20"
+                 BorderWidth="2"  CornerRadius="10"  TextColor="Black" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2"
+                 HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
+                Padding="20,20"></Button>
     </Grid>
 </ContentPage>

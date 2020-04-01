@@ -14,6 +14,15 @@ namespace RudnevMenuProject
         public Order()
         {
             InitializeComponent();
+            Menuu menuu = new Menuu();
+            if(menuu.ThereOrNo)
+            {
+                
+            }
+            else
+            {
+
+            }
         }
         protected override void OnAppearing()
         {
@@ -36,20 +45,9 @@ namespace RudnevMenuProject
             await Navigation.PushAsync(menuPage);
         }
 
-        private void Pay(object sender, EventArgs e)
-        {
-
-        }
-
-
         private async void Cancel(object sender, EventArgs e)
         {
             await Navigation.PopAsync();
-        }
-
-        private void RemoveFromOrder(object sender, EventArgs e)
-        {
-
         }
     }
 }

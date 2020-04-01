@@ -13,6 +13,7 @@
                 <RowDefinition></RowDefinition>
                 <RowDefinition></RowDefinition>
                 <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
 
         </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
@@ -23,7 +24,7 @@
 
             <Label  HorizontalOptions="StartAndExpand"  FontSize="28" TextColor="#4B450E"
                VerticalTextAlignment="Center" HorizontalTextAlignment="Center"
-               Margin="125,15,0,5"   FontAttributes="Bold" FontFamily="Roboto"
+               Margin="145,15,0,5"   FontAttributes="Bold" FontFamily="Roboto"
                      Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"
                 Opacity="1" Text="Бургер" />
 
@@ -84,24 +85,30 @@
                      HorizontalTextAlignment="Center" VerticalOptions="Center" TextChanged="Entry_TextChanged_2"
                      x:Name="entrypork"
         ></Entry>
+        <Label  HorizontalOptions="StartAndExpand"  FontSize="20" TextColor="#4B450E" 
+               VerticalTextAlignment="Center" HorizontalTextAlignment="Center"   FontAttributes="Bold" FontFamily="Roboto"
+                Grid.Row="5" Grid.Column="0" 
+                Opacity="1" Text="Здесь / С собой"/>
+        <Switch BindingContext="{Binding ThereOrNo}" IsToggled="False" OnColor="DarkGoldenrod"
+                  Grid.Row="5" Grid.Column="2"></Switch>
 
-        <Button  Text="Сохранить"  BackgroundColor= "#C59128" 
+        <Button  Text="Заказать"  BackgroundColor= "#C59128" 
                  FontAttributes="Bold" BorderColor="#7B6C0B" 
-                 BorderWidth="2"  CornerRadius="10"  TextColor="Black" Grid.Row="5" Grid.Column="0"
+                 BorderWidth="2"  CornerRadius="10"  TextColor="Black" Grid.Row="6" Grid.Column="2"
                Font="Roboto" Opacity="1" FontSize="18"
                  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" 
                  Margin="5,5,5,5" Padding="0" Clicked="SaveMenu"></Button>
             
             <Button  Text="Удалить"  BackgroundColor= "#C59128"   
                  FontAttributes="Bold" BorderColor="#7B6C0B" 
-                 BorderWidth="2"  CornerRadius="10"  TextColor="Black" Grid.Row="5" Grid.Column="1"
+                 BorderWidth="2"  CornerRadius="10"  TextColor="Black" Grid.Row="6" Grid.Column="1"
                Font="Roboto" Opacity="1" FontSize="18"
                  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" 
                  Margin="5,5,5,5" Padding="0" Clicked="DeleteMenu"></Button>
 
         <Button  Text="Отмена"  BackgroundColor= "#C59128"   
                  FontAttributes="Bold" BorderColor="#7B6C0B" 
-                 BorderWidth="2"  CornerRadius="10"  TextColor="Black" Grid.Row="5" Grid.Column="2"
+                 BorderWidth="2"  CornerRadius="10"  TextColor="Black" Grid.Row="6" Grid.Column="0"
                Font="Roboto" Opacity="1" FontSize="18" 
             HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" 
                  Margin="5,5,5,5" Padding="0" Clicked="Cancel"></Button>

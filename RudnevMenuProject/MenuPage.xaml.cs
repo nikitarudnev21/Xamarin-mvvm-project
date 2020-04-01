@@ -43,7 +43,7 @@ namespace RudnevMenuProject
         }
         private void Cancel(object sender, EventArgs e)
         {
-            this.Navigation.PopAsync();
+            Navigation.PopAsync();
         }
 
         private void First_Clicked(object sender, EventArgs e)
