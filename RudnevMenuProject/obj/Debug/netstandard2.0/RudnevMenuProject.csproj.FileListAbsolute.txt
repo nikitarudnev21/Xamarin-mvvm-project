@@ -23,7 +23,6 @@ C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProje
 C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject\bin\Debug\netstandard2.0\RudnevMenuProject.pdb
 C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject\obj\Debug\netstandard2.0\LoginNext.xaml.g.cs
-C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject\obj\Debug\netstandard2.0\MenuPage.xaml.g.cs
 C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject\obj\Debug\netstandard2.0\Order.xaml.g.cs
 C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject\obj\Debug\netstandard2.0\Registration.xaml.g.cs

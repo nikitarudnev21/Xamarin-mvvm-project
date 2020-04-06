@@ -26,7 +26,6 @@ namespace RudnevMenuProject
             {
                 BarBackgroundColor = Color.DarkGoldenrod
             };
-
         }
 
         protected override void OnStart()

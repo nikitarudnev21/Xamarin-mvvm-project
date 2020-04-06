@@ -3,6 +3,8 @@ C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProje
 C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\android\assets\Java.Interop.dll
 C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\android\assets\Mono.Android.dll
 C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\android\assets\mscorlib.dll
+C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\android\assets\Plugin.Messaging.Abstractions.dll
+C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\android\assets\Plugin.Messaging.dll
 C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\android\assets\RudnevMenuProject.dll
 C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\android\assets\SQLite-net.dll
 C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\android\assets\SQLitePCLRaw.batteries_green.dll
@@ -65,6 +67,7 @@ C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProje
 C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\android\assets\System.Drawing.Common.dll
 C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\android\assets\System.Runtime.Serialization.dll
 C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\android\assets\System.ServiceModel.Internals.dll
+C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\android\assets\System.Collections.dll
 C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\android\assets\netstandard.dll
 C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\android\assets\System.Data.dll
 C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\android\assets\System.Transactions.dll
@@ -72,7 +75,6 @@ C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProje
 C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\android\assets\System.IO.Compression.FileSystem.dll
 C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\android\assets\System.ComponentModel.Composition.dll
 C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\android\assets\System.Web.Services.dll
-C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\android\assets\System.Collections.dll
 C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\android\assets\System.Runtime.Extensions.dll
 C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\android\assets\System.Linq.Expressions.dll
 C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\android\assets\System.Reflection.dll

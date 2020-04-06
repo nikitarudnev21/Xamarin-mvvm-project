@@ -1054,3 +1054,12 @@ C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProje
 C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\linksrc\Plugin.Messaging.Abstractions.dll
+C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\linksrc\Plugin.Messaging.dll
+C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\linksrc\Plugin.Messaging.Abstractions.pdb
+C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\linksrc\Plugin.Messaging.dll.mdb
+C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\android\assets\Plugin.Messaging.Abstractions.dll
+C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\android\assets\Plugin.Messaging.Abstractions.pdb
+C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\android\assets\Plugin.Messaging.dll
+C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\obj\Debug\90\android\assets\Plugin.Messaging.dll.mdb
+C:\Users\Nikita\source\repos\RudnevMenuProject\RudnevMenuProject\RudnevMenuProject.Android\bin\Debug\RudnevMenuProject.dll.mdb

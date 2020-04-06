@@ -45,16 +45,7 @@
                 Opacity="1" Text="Страна" />
             <Entry  Margin="5,5,40,20" 
                BackgroundColor="#F3E7D4"  x:Name="ECountry" Text="{Binding Country}" ></Entry>
-
-            <Label  HorizontalOptions="StartAndExpand" x:Name="lblDate"  FontSize="20" TextColor="#4B450E"
-               VerticalTextAlignment="Center" HorizontalTextAlignment="Center" 
-               Margin="5,15,0,5"   FontAttributes="Bold" FontFamily="Roboto"
-                Opacity="1" Text="Дата рождения" />
             
-            <DatePicker  Date = "{Binding Date}"    x:Name="DP" Margin="5,5,40,20" VerticalOptions="FillAndExpand" 
-                    MinimumDate="01/01/1990" FontSize="Large" HorizontalOptions="FillAndExpand" >
-                </DatePicker>
-
             <Label  HorizontalOptions="StartAndExpand" x:Name="lblAge"  FontSize="20" TextColor="#4B450E"
                VerticalTextAlignment="Center" HorizontalTextAlignment="Center" 
                Margin="5,15,0,5"   FontAttributes="Bold" FontFamily="Roboto"
@@ -63,6 +54,14 @@
                BackgroundColor="#F3E7D4"  x:Name="EAge" Text="{Binding Age}" Keyboard="Numeric"></Entry>
 
             <Label  HorizontalOptions="StartAndExpand" x:Name="lblStatus"  FontSize="20" TextColor="#4B450E"
+               VerticalTextAlignment="Center" HorizontalTextAlignment="Center" 
+               Margin="5,15,0,5"   FontAttributes="Bold" FontFamily="Roboto"
+                Opacity="1" Text="Деньги" />
+
+            <Entry  Margin="5,5,40,20" 
+               BackgroundColor="#F3E7D4"  x:Name="EMoney" Text="{Binding Money}" Keyboard="Numeric"></Entry>
+
+            <Label  HorizontalOptions="StartAndExpand" x:Name="lblMoney"  FontSize="20" TextColor="#4B450E"
                VerticalTextAlignment="Center" HorizontalTextAlignment="Center" 
                Margin="5,15,0,5"   FontAttributes="Bold" FontFamily="Roboto"
                 Opacity="1" Text="Пол" />

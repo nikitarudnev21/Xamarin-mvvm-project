@@ -14,7 +14,6 @@ namespace RudnevMenuProject
     {
         public static string getlog;
         public static string getpass;
-        Menuu menuu = new Menuu();
         public RegistrationNext()
         {
             InitializeComponent();
@@ -28,9 +27,12 @@ namespace RudnevMenuProject
               getpass = Epass.Text;
               menuu.Password = getpass;
               menuu.Login = getlog;*/
-            /*var menuu = (Menuu)BindingContext;
-            App.database.SaveItem(menuu);*/
-            await Navigation.PushAsync(new LoginNext());
+           // Menuu menuu = (Menuu)BindingContext;
+          //  App.database.SaveItem(menuu);
+            LoginNext login = new LoginNext();
+          //  login.BindingContext = menuu;
+            await Navigation.PushAsync(login);
+          //  await Navigation.PushAsync(new LoginNext());
         }
 
         private async void Cancel(object sender, EventArgs e)

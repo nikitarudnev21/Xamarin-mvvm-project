@@ -14,15 +14,6 @@ namespace RudnevMenuProject
         public Order()
         {
             InitializeComponent();
-            Menuu menuu = new Menuu();
-            if(menuu.ThereOrNo)
-            {
-                
-            }
-            else
-            {
-
-            }
         }
         protected override void OnAppearing()
         {
@@ -49,5 +40,18 @@ namespace RudnevMenuProject
         {
             await Navigation.PopAsync();
         }
+
+      /*  private void Lblloc_BindingContextChanged(object sender, EventArgs e)
+        {
+            Menuu menuu = new Menuu();
+            if (menuu.ThereOrNo)
+            {
+                lblbeef.Text = "true";
+            }
+            else
+            {
+                lblbeef.Text = "false";
+            }
+        }*/
     }
 }

@@ -14,15 +14,14 @@ namespace RudnevMenuProject
         public int Id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
-        public string Phone { get; set; }
+        public string Phone { get; set; } 
         public string Country { get; set; }
-        private DateTime date;
-        public bool birth { get; set; }
-        public int Sex { get; set; }
-        public bool sswitch { get; set; }
-        public int DLeft { get; set; }
         public int Age { get; set; }
+        public int Money { get; set; } = 20;
+        public int Sex { get; set; }
         public int Nationality { get; set; }
+        public string Login { get; set; }
+        public string Password { get; set; }
         public int BurgerChick { get; set; }
         public int BurgerPork { get; set; }
         public int BurgerBeef { get; set; }
@@ -36,8 +35,42 @@ namespace RudnevMenuProject
         public int DrinkSize{ get; set; }
         public int Dish { get; set; }
         public bool ThereOrNo { get; set; }
-        public int Money { get; set; }
-        public string Login { get; set; }
-        public string Password { get; set; }
+        /*  public string ThereNo {
+              get
+              {
+                  if(ThereOrNo)
+                  {
+                      ThereNo = "Здесь";
+                  }
+                  else
+                  {
+                      ThereNo = "С собой";
+                  }
+                  return ThereNo;
+              }
+              set
+              {
+                  ThereNo = value;
+              }
+          }*/
+        public int MoneySpend { get; set; } = 20;
+      /*  public bool MoneyEnough {
+            get
+            {
+                if(Money-MoneySpend>0)
+                {
+                    MoneyEnough = true;
+                }
+                else
+                {
+                    MoneyEnough = false;
+                }
+                return MoneyEnough;
+            }
+            set
+            {
+                value = MoneyEnough;
+            }
+        }*/
     }
 }

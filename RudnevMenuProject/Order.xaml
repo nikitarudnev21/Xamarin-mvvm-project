@@ -22,13 +22,13 @@
 
         <Label   TextColor="#4B450E" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
                VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Grid.ColumnSpan="4" Grid.Row="0"
-               Margin="80,0,0,0"   FontAttributes="Bold" FontFamily="Roboto" FontSize="Large"
+               Margin="60,0,0,0"   FontAttributes="Bold" FontFamily="Roboto" FontSize="Large"
                 Opacity="1" Text="Бургеры" />
 
         <Label Text="С говядиной" x:Name="lblbeef" Grid.Column="0" FontAttributes="Bold" Grid.Row="1" TextColor="#4B450E" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
         <Label Text="С курицей" x:Name="lblchick" Grid.Column="1"  FontAttributes="Bold"  Grid.Row="1" TextColor="#4B450E" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
         <Label Text="Со свининой" x:Name="lblpork" Grid.Column="2"  FontAttributes="Bold"  Grid.Row="1" TextColor="#4B450E" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
-        <Label Text="Здесь/ С собой"  Grid.Column="3"  FontAttributes="Bold"  Grid.Row="1" TextColor="#4B450E" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+        <Label Text="Здесь/ С собой"  Grid.Column="3"  FontAttributes="Bold"  Grid.Row="1" TextColor="#4B450E" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Margin="10,0,0,0"></Label>
         <ListView x:Name="MenuList" ItemsSource="{Binding}" ItemSelected="OnItemSelected" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="4">
                 <ListView.ItemTemplate>
                     <DataTemplate>
@@ -38,8 +38,7 @@
                                 <Label Text="{Binding BurgerBeef}"  FontSize="Medium"   Grid.Column="0"  Margin="0,0,0,0" TextColor="#4B450E" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
                                 <Label Text="{Binding BurgerChick}" FontSize="Medium"  Grid.Column="1" Margin="0,0,0,0" TextColor="#4B450E" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
                                 <Label Text="{Binding BurgerPork}"  FontSize="Medium"   Grid.Column="2" Margin="0,0,0,0" TextColor="#4B450E" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
-                                <Label Text="{Binding ThereOrNo}"  FontSize="Medium"   Grid.Column="3" Margin="0,0,0,0" TextColor="#4B450E" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" 
-                                       x:Name="lblloc"/>
+                                <Label Text="{Binding ThereOrNo}"  FontSize="Medium"   Grid.Column="3" Margin="0,0,0,0" TextColor="#4B450E" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
                             </Grid>
                         </ViewCell.View>
                     </ViewCell>

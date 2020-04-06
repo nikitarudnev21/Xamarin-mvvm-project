@@ -89,8 +89,8 @@
                VerticalTextAlignment="Center" HorizontalTextAlignment="Center"   FontAttributes="Bold" FontFamily="Roboto"
                 Grid.Row="5" Grid.Column="0" 
                 Opacity="1" Text="Здесь / С собой"/>
-        <Switch BindingContext="{Binding ThereOrNo}" IsToggled="False" OnColor="DarkGoldenrod"
-                  Grid.Row="5" Grid.Column="2"></Switch>
+        <Switch  IsToggled="{Binding ThereOrNo}"  OnColor="DarkGoldenrod" x:Name="switch1"
+                  Grid.Row="5" Grid.Column="1"></Switch>
 
         <Button  Text="Заказать"  BackgroundColor= "#C59128" 
                  FontAttributes="Bold" BorderColor="#7B6C0B" 

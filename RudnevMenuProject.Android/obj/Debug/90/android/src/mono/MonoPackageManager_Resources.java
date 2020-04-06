@@ -4,6 +4,8 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "RudnevMenuProject.Android.dll" comes first in this list. */
 		"RudnevMenuProject.Android.dll",
 		"FormsViewGroup.dll",
+		"Plugin.Messaging.Abstractions.dll",
+		"Plugin.Messaging.dll",
 		"RudnevMenuProject.dll",
 		"SQLite-net.dll",
 		"SQLitePCLRaw.batteries_green.dll",

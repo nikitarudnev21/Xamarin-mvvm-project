@@ -20,7 +20,7 @@ namespace RudnevMenuProject
 
         async void GoNext(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new MainPage());
+            await Navigation.PushAsync(new Order());
 
          /*   Menuu menuu = new Menuu();
             lblLog1.Text = menuu.Password +" "+ menuu.Login;

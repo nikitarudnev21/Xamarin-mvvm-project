@@ -16,7 +16,6 @@ namespace RudnevMenuProject
         {
             InitializeComponent();
         }
-
         private async void Login(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new LoginNext());
@@ -32,7 +31,7 @@ namespace RudnevMenuProject
             bool result2 = await DisplayAlert("Подтвердите действие", "Вы действительно хотите выйти?", "Да", "Нет");
             if (result2 == true)
             {
-                System.Environment.Exit(0);
+                Environment.Exit(0);
                 // Android.OS.Process.KillProcess(Android.OS.Process.MyPid());
             }
         }
